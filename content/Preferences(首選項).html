@@ -154,13 +154,66 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">心得 << <a href='心得.html'>Previous</a> <a href='Assignment 2.html'>Next</a> >> Assignment 2<br /><h1>報告</h1>
-<p><a href="https://s5.aconvert.com/convert/p3r68-cdx67/ren7r-cyl88.pdf">https://s5.aconvert.com/convert/p3r68-cdx67/ren7r-cyl88.pdf</a></p>
-<p>影片簡單<a href="https://youtu.be/Gj974WwbWJ4"></a>說明</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Gj974WwbWJ4" width="560"></iframe></p>
-<p></p>
-<p></p>
-<br />心得 << <a href='心得.html'>Previous</a> <a href='Assignment 2.html'>Next</a> >> Assignment 2</div>
+    <div id="tipue_search_content">webots 入門 << <a href='webots 入門.html'>Previous</a> <a href='The Scene Tree(場景樹).html'>Next</a> >> The Scene Tree(場景樹)<br /><h1>Preferences(首選項)</h1>
+<p><span>可以通過對話框修改Webots首選項，該對話框可以從</span><code>Webots / Preferences</code><span>Mac上的菜單項打開，也可以從</span><code>Tools / Preferences</code><span>其他操作系統上的菜單項打開。</span></p>
+<p><span><span>該對話框分為多個選項卡。</span><span>以下每個小節對應於這些選項卡之一。</span></span></p>
+<p>指數</p>
+<ul id="index">
+<li><a href="https://cyberbotics.com/doc/guide/preferences#general"><span><span>一般</span></span></a></li>
+<li><a href="https://cyberbotics.com/doc/guide/preferences#opengl"><span><span>OpenGL</span></span></a></li>
+<li><a href="https://cyberbotics.com/doc/guide/preferences#network"><span><span>網絡</span></span></a></li>
+</ul>
+<p><a class="anchor-link" href="https://cyberbotics.com/doc/guide/preferences#general"><span class="anchor-link-image"></span></a><span><span>一般</span></span></p>
+<p><span><span>在</span></span><strong><span><span>常規</span></span></strong><span><span>選項卡包含有關應用程序的各種喜好。</span></span></p>
+<ul>
+<li><span><span>在</span></span><strong><span><span>語言</span></span></strong><span><span>選項允許您選擇Webots用戶界面（需要重新啟動）的語言。</span></span></li>
+<li><span><span>在</span></span><strong><span><span>啟動模式</span></span></strong><span><span>，您可以選擇模擬的狀態時Webots開始（暫停，實時，運行速度快;看到</span></span><code>Simulation</code><span><span>菜單）。</span></span></li>
+<li><span><span>所述</span></span><strong><span><span>編輯器的字體</span></span></strong><span><span>定義中Webots文本編輯器，並在控制台將要使用的字體。</span><span>建議選擇固定寬度的字體，以更好地顯示源代碼。</span><span>此首選項的默認值在Windows上為“ Consolas，10”，在Mac上為“ Courier，14”，在Linux上為“ Monospace”。</span></span></li>
+<li><span><span>該</span></span><strong><span><span>線程數</span></span></strong><span><span>確定有多少線程可以通過Webots最大創建。</span><span>推薦值與計算機處理器的邏輯核心數匹配。</span><span>在某些特定情況下（例如，當另一個進程強烈需要其他內核時）降低此值可能很有趣。</span><span>目前，該值僅影響物理引擎速度和控制器編譯速度。</span><span>請注意，這是允許的最大線程數，但是實際使用的線程數是</span><a href="https://cyberbotics.com/doc/reference/worldinfo"><span>WorldInfo</span></a><span>節點</span><span>的</span></span><code>optimalThreadCount</code><span><span>字段中</span><span>定義的數量</span><span>。</span></span><a href="https://cyberbotics.com/doc/reference/worldinfo"><span></span></a><span></span></li>
+<li><span><span>的</span></span><strong><span><span>Python的命令</span></span></strong><span><span>的Python命令由Webots開始一個Python控制器時調用定義。</span><span>默認值為</span></span><code>python</code><span><span>。</span><span>假定它</span></span><code>python</code><span><span>已安裝並且可以從命令行使用，那麼</span><span>它應該可以在大多數係統上工作</span><span>。</span><span>在某些系統上，</span></span><code>python3.7</code><span><span>例如，如果要使用此特定版本的Python啟動控制器，</span><span>將其設置為有用</span><span>。</span><span>請記住，此值可能會被</span></span><code>runtime.ini</code><span><span>Python控制器文件</span><span>的內容所覆蓋，該</span><span>文件可能會重新定義啟動該控制器的特定Python命令。</span></span></li>
+<li><span><span>該</span></span><strong><span><span>額外項目的路徑</span></span></strong><span><span>定義了類似的用戶文件夾的路徑</span></span><code>WEBOTS_HOME/projects</code><span><span>文件夾。</span><span>該用戶文件夾應包含可在當前項目中使用的項目資源（例如PROTO節點，控制器，紋理等）。</span><span>它可能包含多個子文件夾，每個子文件夾都與一個子項目相關聯（應該遵守</span></span><a class="dynamicLoad" href="https://cyberbotics.com/doc/guide/the-standard-file-hierarchy-of-a-project"><span><span>一個項目</span></span></a><span><span>的</span><a class="dynamicLoad" href="https://cyberbotics.com/doc/guide/the-standard-file-hierarchy-of-a-project"><span>標准文件層次結構</span></a><span>）。</span><span>該文件夾還可以包含一個</span></span><code>default</code><span><span>項目，可用於定義通用控制器，紋理，聲音等。</span></span></li>
+<li><span><span>“<span> </span></span></span><strong><span><span>警告：僅針對場景樹編輯</span></span></strong><span><span>顯示警告”複選框可防止Webot在通過更改視點，拖動，旋轉，施加力或通過修改當前世界退出，重新加載或加載新世界時顯示任何警告對話框窗口。施加到物體上的扭矩，或通過控制器修改世界。</span><span>但是，如果從場景樹修改了世界，它將仍然顯示警告。</span></span></li>
+<li><span><span>該</span></span><strong><span><span>遙測：發送技術資料Webots developpers</span></span></strong><span><span>複選框允許Webots，以便發送匿名的技術數據Webots developpers以幫助改進軟件。</span></span><a class="dynamicLoad" href="https://cyberbotics.com/doc/guide/telemetry"><span><span>此處</span></span></a><span><span>提供了所有已發送數據的完整說明</span><span>。</span></span></li>
+<li><span><span>該</span></span><strong><span><span>更新策略：檢查Webots更新在啟動時</span></span></strong><span><span>複選框允許Webots以檢查是否有新版本可供下載在每次啟動。</span><span>如果可用，對話框窗口將通知您。</span></span></li>
+</ul>
+<p><span><span>OpenGL</span></span></p>
+<p><span><span>在</span></span><strong><span><span>OpenGL</span></span></strong><span><span>選項卡包含有關設置的3D渲染能力的偏好。</span><span>這些設置的默認參數可能會因係統的硬件和OpenGL功能而從一台計算機到另一台計算機。</span></span></p>
+<ul>
+<li>
+<p><span><span>“<span> </span></span></span><strong><span><span>環境光遮擋”</span></span></strong><span><span>選項使您可以啟用</span></span><a href="http://iryoku.com/downloads/Practical-Realtime-Strategies-for-Accurate-Indirect-Occlusion.pdf" target="_blank"><span><span>GTAO</span></span></a><span><span>，這是3D視圖上屏幕空間環境光遮擋的一種現代形式。</span><span>此選項可在場景中實現更高水平的真實感，但性能成本卻不可忽略。</span><span>為了減輕這種情況，默認情況下將其設置為“中等”質量。</span><span>超高品質可提供最佳結果，但性能最高。</span></span></p>
+</li>
+<li>
+<p><span></span><strong><span><span>Texture Quality</span></span></strong><span><span>（</span><strong><span>紋理質量）</span></strong><span>選項使您可以降低場景中所有紋理的分辨率，以節省GPU內存。</span><span>如果設置為</span></span><code>high</code><span><span>最大可用分辨率（即原始分辨率），將使用。</span><span>如果設置為</span></span><code>medium</code><span><span>，則將大於或等於1024的圖像分辨率除以2（分別考慮寬度和高度）。</span><span>如果設置為</span></span><code>low</code><span><span>，則將大於或等於512的圖像分辨率除以4。</span></span></p>
+</li>
+<li>
+<p><span><span>“<span> </span></span></span><strong><span><span>禁用陰影”</span></span></strong><span><span>選項使您可以完全禁用3D視圖和“<span> </span></span></span><a href="https://cyberbotics.com/doc/reference/camera"><span><span>相機”</span></span></a><span><span>渲染中</span><span>的陰影</span><span>，無論</span></span><em><span><span>Light.castShadows</span></span></em><span><span>字段</span><span>的值</span><em><span>如何</span></em><span>。</span></span></p>
+</li>
+</ul>
+<p><span><span>在全球範圍內，可以通過禁用此功能來提高性能，但另一方面，渲染更難於理解且不夠美觀。</span></span></p>
+<ul>
+<li><span><span>在</span></span><strong><span><span>禁用抗鋸齒</span></span></strong><span><span>選項，可以禁止在3D視圖和抗鋸齒</span></span><a href="https://cyberbotics.com/doc/reference/camera"><span><span>相機</span></span></a><span><span>渲染。</span><span>Webots使用的抗鋸齒算法是</span></span><a href="http://www.iryoku.com/smaa/" target="_blank"><span><span>SMAA 1x</span></span></a><span><span>。</span><span>我們觀察到一些舊的圖形硬件不支持有關抗鋸齒的OpenGL功能。</span><span>在這種情況下，最好禁用抗鋸齒功能。</span><span>否則，禁用抗鋸齒功能可能會導致性能略有提高，但會降低圖形保真度。</span></span></li>
+</ul>
+<p><a class="anchor-link" href="https://cyberbotics.com/doc/guide/preferences#network"><span class="anchor-link-image"></span></a><span><span>網絡</span></span></p>
+<p><span><span>該</span></span><strong><span><span>網絡</span></span></strong><span><span>標籤，您可以手動配置HTTP代理，該代理Webots將利用在互聯網上訪問其許可證服務器。</span></span></p>
+<ul>
+<li>
+<p><span><span>該</span></span><strong><span><span>代理服務器類型</span></span></strong><span><span>複選框允許您啟用或禁用襪子v5代理協議。</span></span></p>
+</li>
+<li>
+<p><span><span>該</span></span><strong><span><span>代理主機</span></span></strong><span><span>字段，您可以設置代理服務器的主機名。</span></span></p>
+</li>
+<li>
+<p><span><span>在</span></span><strong><span><span>代理端口</span></span></strong><span><span>字段允許您設置代理服務器使用的端口。</span></span></p>
+</li>
+<li>
+<p><span><span>該</span></span><strong><span><span>代理的用戶名</span></span></strong><span><span>字段是可選的。</span><span>它允許您指定發送到代理服務器的用戶名。</span></span></p>
+</li>
+<li>
+<p><span><span>該</span></span><strong><span><span>代理密碼</span></span></strong><span><span>字段是可選的，以及，並允許您指定發送到代理服務器的用戶密碼。</span></span></p>
+</li>
+</ul>
+<p><span><span>更改代理配置後，建議重新啟動Webot，以確保正確考慮了更改。</span><span>如果清除“<span> </span></span></span><strong><span><span>代理主機名”</span></span></strong><span><span>字段，Webots將在下次啟動時嘗試檢索默認的系統代理。</span></span></p>
+<br />webots 入門 << <a href='webots 入門.html'>Previous</a> <a href='The Scene Tree(場景樹).html'>Next</a> >> The Scene Tree(場景樹)</div>
         
     <!-- footer -->
       <div class="container">

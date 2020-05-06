@@ -1,0 +1,302 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>cd2020ag1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- 啟用 LaTeX equations 編輯 -->
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>CD2020ag1</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">CD2020ag1</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='組員名單.html'>組員名單</a></li></ul><li class='has-children'><a href='直播每周影片與進度.html'>直播每周影片與進度</a><ul class='dropdown'><li><a href='w2.html'>w2</a><li><a href='w3.html'>w3</a><li><a href='w5.html'>w5</a><li class='has-children'><a href='w6.html'>w6</a><ul class='dropdown'><li><a href='課程內容.html'>課程內容</a></li></ul><li class='has-children'><a href='w7.html'>w7</a><ul class='dropdown'><li><a href='說明線上課程及流程.html'>說明線上課程及流程</a><li><a href='嘗試在coppeliasim上驅動馬達.html'>嘗試在coppeliasim上驅動馬達</a></li></ul><li><a href='w8.html'>w8</a><li class='has-children'><a href='w9.html'>w9</a><ul class='dropdown'><li><a href='分配內容.html'>分配內容</a></li></li></ul></ul><li class='has-children'><a href='Assignment1.html'>Assignment1</a><ul class='dropdown'><li><a href='python更新至3.8.2.html'>python更新至3.8.2</a><li><a href='python 亂數分組.html'>python 亂數分組</a><li class='has-children'><a href='了解四輪機器人.html'>了解四輪機器人</a><ul class='dropdown'><li><a href='翻譯.html'>翻譯</a><li><a href='心得.html'>心得</a></li></ul><li><a href='報告.html'>報告</a></li></ul><li class='has-children'><a href='Assignment 2.html'>Assignment 2</a><ul class='dropdown'><li class='has-children'><a href='Top 0文章.html'>Top 0文章</a><ul class='dropdown'><li><a href='感想.html'>感想</a></li></ul><li class='has-children'><a href='webots tutorial.html'>webots tutorial</a><ul class='dropdown'><li><a href='編成基礎(使用數值優化方法,控制器插件).html'>編成基礎(使用數值優化方法,控制器插件)</a><li><a href='webots 入門.html'>webots 入門</a><li><a href='Preferences(首選項).html'>Preferences(首選項)</a><li><a href='The Scene Tree(場景樹).html'>The Scene Tree(場景樹)</a><li><a href='編成基礎(控制器編成,Python範例).html'>編成基礎(控制器編成,Python範例)</a><li><a href='感測器.html'>感測器</a><li><a href='執行器(線性馬達,發光二極管,肌肉,鋼筆).html'>執行器(線性馬達,發光二極管,肌肉,鋼筆)</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">感測器 << <a href='感測器.html'>Previous</a> <br /><h1>執行器(線性馬達,發光二極管,肌肉,鋼筆)</h1>
+<p>線性馬達</p>
+<p>衍生自<a href="https://cyberbotics.com/doc/reference/motor">Motor</a>。</p>
+<p>LinearMotor {</p>
+<p>  SFString name     "linear motor"              # any string</p>
+<p>  SFFloat  maxForce 10                          # [0, inf)</p>
+<p>  SFString sound    "sounds/linear_motor.wav"   # any string</p>
+<p>描述</p>
+<p>甲<a href="https://cyberbotics.com/doc/reference/linearmotor#linearmotor"><span>直線電機</span></a>節點可以用來驅動一個<a href="https://cyberbotics.com/doc/reference/sliderjoint">SliderJoint</a>和一個<a href="https://cyberbotics.com/doc/reference/track"><span>軌道</span></a>。</p>
+<p>領域摘要</p>
+<ul>
+<li>該name字段指定電機設備的名稱標識符。該wb_robot_get_device函數所引用的名稱。默認為"linear motor"。</li>
+<li>該maxForce字段同時指定了電動機<em>可用力的</em>上限和默認值。該<em>可力</em>是可用於執行所請求的動作電動機的動力。它以<em>牛頓</em>[N] 表示。該wb_motor_set_available_force功能可用於在運行時更改<em>可用力</em>。的值maxForce應始終為零或正（默認值為10 N）。較小的maxForce值可能導致電動機由於其重量或其他外力而無法移動到目標位置。  </li>
+</ul>
+<p><em><strong>發光二極管</strong></em></p>
+<p>源自<a href="https://cyberbotics.com/doc/reference/device"><span>設備</span></a>和<a href="https://cyberbotics.com/doc/reference/solid"><span>實體</span></a>。</p>
+<p>LED {  MFColor color   [ 1 0 0 ]   # any color  SFBool  gradual FALSE       # {TRUE, FALSE}}</p>
+<p><em><strong>描述</strong></em></p>
+<p>所述<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>節點用於發光二極管（LED）進行建模。LED產生的光可用於調試或提供信息。結果顏色僅應用於<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>節點的第一個子節點。如果第一個子對<a href="https://cyberbotics.com/doc/reference/pbrappearance"><span>像是</span>“ </a><a href="https://cyberbotics.com/doc/reference/shape"><span>形狀</span>”</a>節點，則emissiveColor其“ <a href="https://cyberbotics.com/doc/reference/material"><span>材料</span>”</a>或“ <a href="https://cyberbotics.com/doc/reference/pbrappearance">PBRAppearance”</a>節點的字段會更改。如果第一個孩子是<a href="https://cyberbotics.com/doc/reference/light">Light</a>節點，則其color字段會更改。否則，如果第一個孩子是“ <a href="https://cyberbotics.com/doc/reference/group"><span>組</span>”</a>節點，則對該節點執行遞歸搜索，以查找必須修改的顏色字段，因此每個“ <a href="https://cyberbotics.com/doc/reference/light"><span>光</span>”</a>，“ <a href="https://cyberbotics.com/doc/reference/shape"><span>形狀</span>”</a>和“ <a href="https://cyberbotics.com/doc/reference/group"><span>組</span>”</a>節點根據以前的規則進行了更改。就<a href="https://cyberbotics.com/doc/reference/light">Light</a>節點而言，<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>節點只能接受<a href="https://cyberbotics.com/doc/reference/pointlight">PointLight</a>和<a href="https://cyberbotics.com/doc/reference/spotlight">SpotLight</a>節點作為子節點。</p>
+<p>請注意，將由<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>功能自動更改的<a href="https://cyberbotics.com/doc/reference/material">Material</a>和<a href="https://cyberbotics.com/doc/reference/light">Light</a>節點不能是<a href="https://cyberbotics.com/doc/reference/def-and-use">USE</a>節點。</p>
+<p><em><strong>領域摘要</strong></em></p>
+<ul>
+<li>color：這定義了LED設備的顏色。熄滅時，LED始終為黑色。但是，當打開時，它可能具有LED編程接口指定的不同顏色。默認情況下，該color定義僅定義一種顏色（紅色），但是您可以更改此顏色並添加可以從LED編程界面中選擇的其他顏色。但是，定義的顏色數量取決於gradual字段的值（請參見下文）。</li>
+<li>gradual：這定義了LED的類型。如果設置為FALSE，則LED可以採用color列表中定義的任何顏色值。如果設置為TRUE，則color列表應該為空或僅包含一種顏色值。如果color列表為空，則該LED為RGB LED，並且可以採用R8G8B8顏色空間中的任何顏色（1600萬種可能性）。如果color列表包含單一顏色，則LED為單色，並且其強度可以在0（關閉）和255（最大強度）之間進行調整。</li>
+</ul>
+<p><strong>LED功能</strong></p>
+<p><strong>wb_led_set</strong></p>
+<p><strong>wb_led_get</strong></p>
+<p>CC ++蟒蛇爪哇的MATLABROS</p>
+<p><span><span><span>#</span><span><span><strong><span>include</span></strong></span></span></span><span><span> </span><span><span><span>&lt;webots/led.h&gt;</span></span></span></span></span> <span><span><strong><span><span><span>void</span></span></span></strong></span></span><span><span> </span><strong><span><span><span>wb_led_set</span></span></span></strong></span><span><span><span><span>(WbDeviceTag tag,<span> </span></span></span></span><span><span><span><strong><span><span>int</span></span></strong></span></span></span><span><span><span><span> </span>value)</span></span></span></span>;<span><span><strong><span><span><span>int</span></span></span></strong></span></span><span><span> </span><strong><span><span><span>wb_led_get</span></span></span></strong></span><span><span><span><span>(WbDeviceTag tag)</span></span></span></span>;</p>
+<p><strong>描述</strong></p>
+<p><em>打開或關閉</em><em>LED</em><em>並讀取其狀態</em></p>
+<p>該wb_led_set功能可打開或關閉LED，可能會改變其顏色。如果value參數為0，則LED熄滅。否則，將其打開。</p>
+<p>對於非漸變LED（gradual字段設置為FALSE），如果value參數為1，則使用color相應<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>節點的字段中指定的第一種顏色打開<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>。如果value參數為2，則使用color在<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>節點的字段中指定的第二種顏色打開<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>，依此類推。該value參數不應大於color相應<a href="https://cyberbotics.com/doc/reference/led#led">LED</a>節點的字段的大小。</p>
+<p>對於單色LED（gradual字段設置為TRUE並且color字段僅包含一種顏色），該value參數指示LED的強度在0（關閉）到255（最大強度）的範圍內。</p>
+<p>對於RGB LED（gradual字段設置為TRUE並且color字段包含空列表），該value參數指示LED的RGB顏色，範圍為0（關閉或黑色）至0xffffff（白色）。格式為R8G8B8：最高8位（左側）指示紅色電平（介於0x00和0xff之間）。位8至15指示綠色電平，而最低有效8位（右側）指示藍色電平。例如，0xff0000是紅色，0x00ff00是綠色，0x0000ff是藍色，0xffff00是黃色，依此類推。</p>
+<p>該wb_led_get函數返回作為最後一個wb_led_set函數調用的參數給出的值。</p>
+<p>   </p>
+<p><em><strong>肌肉</strong></em></p>
+<p>Muscle {  SFDouble volume      0.01    # [0, inf)  SFVec3f  startOffset 0 0 0   # any vector  SFVec3f  endOffset   0 0 0   # any vector  MFColor  color       [ ]     # any color  SFBool   castShadows TRUE    # {TRUE, FALSE}  SFBool   visible     TRUE    # {TRUE, FALSE}}</p>
+<p><em><strong>描述</strong></em></p>
+<p>甲<a href="https://cyberbotics.com/doc/reference/muscle#muscle"><span>肌肉</span></a>節點可用於以圖形方式顯示的人工肌肉的收縮實現使<a href="https://cyberbotics.com/doc/reference/joint"><span>關節</span></a>和<a href="https://cyberbotics.com/doc/reference/motor"><span>電機</span></a>節點。使用球體表示人造肌肉，其中對稱軸是關節最近的上<a href="https://cyberbotics.com/doc/reference/transform"><span>變換</span></a>節點和endPoint <a href="https://cyberbotics.com/doc/reference/solid"><span>實體</span></a>節點之間的向量。其他兩個軸具有基於對稱軸長度計算的相同長度，以便在拉伸過程中體積保持恆定。</p>
+<p>請注意，如果<a href="https://cyberbotics.com/doc/reference/track">Track</a>節點中包含<a href="https://cyberbotics.com/doc/reference/motor">Motor</a>設備，則無法使用<a href="https://cyberbotics.com/doc/reference/muscle#muscle">Muscle</a>節點。</p>
+<p><em><strong>領域摘要</strong></em></p>
+<ul>
+<li>該volume字段指定圖形橢球體的恆定體積。當關節移動時，該值用於重新計算肌肉的形狀。</li>
+<li>的startOffset肌肉的底部點的位置的最近的坐標系中指定球狀體上<a href="https://cyberbotics.com/doc/reference/transform"><span>變換</span></a>節點。如果startOffset是[0, 0, 0]，則橢球底點對應於最接近的上<a href="https://cyberbotics.com/doc/reference/transform"><span>變換</span></a>原點。</li>
+<li>所述endOffset指定肌肉的頂點的位置的坐標系中球狀體<a href="https://cyberbotics.com/doc/reference/joint"><span>聯合</span></a>。endPoint<a href="https://cyberbotics.com/doc/reference/solid"><span>實體</span></a>節點。如果endOffset是[0, 0, 0]，則橢球體的最高點對應於endPoint <a href="https://cyberbotics.com/doc/reference/solid">Solid</a>原點。</li>
+<li>該color字段指定三種不同肌肉狀態下球體的顏色：空閒（項目0），收縮（項目1）和放鬆（項目2）。顯示的顏色是通過將閒置顏色和當前狀態顏色與百分比（取決於電動機施加的力）混合而成的：</li>
+</ul>
+<p>o    color = idle_color * (1 - percentage) + other_color * percentage</p>
+<p>在哪裡other_color收縮或放鬆色彩。僅使用三種顏色，因此，如果指定了更多項目，則將忽略它們。如果僅定義了兩種顏色，則當肌肉收縮或鬆弛時，將使用相同的顏色（項目1）。如果僅定義一種顏色，則將指定的顏色用於所有肌肉狀態。如果color字段為空，則所有肌肉狀態均使用默認顏色（純紅色）。</p>
+<ul>
+<li>該castShadows字段使用戶可以打開（TRUE）或關閉（FALSE）由肌肉球體網格投射的陰影。</li>
+<li>該visible字段用於顯示（TRUE）或隱藏（FALSE）3D場景中的肌肉。</li>
+</ul>
+<p>  </p>
+<p><em><strong>鋼筆</strong></em></p>
+<p>源自<a href="https://cyberbotics.com/doc/reference/device"><span>設備</span></a>和<a href="https://cyberbotics.com/doc/reference/solid"><span>實體</span></a>。</p>
+<p>Pen {  SFColor inkColor    0 0 0   # any color  SFFloat inkDensity  0.5     # [0, 1]  SFFloat leadSize    0.002   # [0, inf)  SFFloat maxDistance 0.0     # [0, inf)  SFBool  write       TRUE    # {TRUE, FALSE}}</p>
+<p><em><strong>指數</strong></em></p>
+<ul>
+<li><a href="https://cyberbotics.com/doc/reference/pen#description"><span>描述</span></a></li>
+<li><a href="https://cyberbotics.com/doc/reference/pen#field-summary"><span>領域摘要</span></a></li>
+<li><a href="https://cyberbotics.com/doc/reference/pen#pen-functions"><span>筆功能</span></a>
+<ul>
+<li><a href="https://cyberbotics.com/doc/reference/pen#wb_pen_write">wb_pen_write</a></li>
+<li><a href="https://cyberbotics.com/doc/reference/pen#wb_pen_set_ink_color">wb_pen_set_ink_color</a></li>
+</ul>
+</li>
+</ul>
+<p><em><strong>描述</strong></em></p>
+<p><a href="https://cyberbotics.com/doc/reference/pen#pen">Pen</a>節點對連接到移動機器人的<a href="https://cyberbotics.com/doc/reference/pen#pen"><span>筆進行</span></a>建模，該筆通常用於顯示機器人的軌跡。<a href="https://cyberbotics.com/doc/reference/solid">Pen</a>設備的繪製方向與節點的<em>-y-</em>軸重合。因此，可以通過修改<a href="https://cyberbotics.com/doc/reference/solid"><span>實體</span></a>節點的旋轉和平移字段來對其進行調整。通過設置該maxDistance字段，可以定義<a href="https://cyberbotics.com/doc/reference/pen#pen"><span>筆</span></a>的範圍並僅在靠近設備的物體上繪畫。例如，使用較小的值maxDistance可以模擬僅在物理接觸時書寫的筆或鉛筆的真實行為。如果maxDistance設置為0（默認值），則範圍將不受限制。</p>
+<p>為了可繪製，對象應該由一個<a href="https://cyberbotics.com/doc/reference/solid"><span>實體</span></a>節點組成，該<a href="https://cyberbotics.com/doc/reference/solid"><span>實體</span></a>節點包含一個帶有有效值的<a href="https://cyberbotics.com/doc/reference/shape">Shape</a>Geometry和一個<a href="https://cyberbotics.com/doc/reference/imagetexture">ImageTexture</a>。將已塗漆的圖層應用到紋理上，而無需對其進行修改。</p>
+<p>繪製動作的精度主要取決於節點的subdivision場Geometry。較高的subdivision值會增加用於表示幾何圖形的多邊形的數量，因此可以進行更精確的紋理映射，但是也會降低場景的渲染速度。另一方面，如果紋理貼圖較差，則塗漆區域可能會顯示在與預期位置不同的位置。對於<a href="https://cyberbotics.com/doc/reference/indexedfaceset">IndexedFaceSet</a>，可以通過定義紋理映射並設置texCoord和texCoordIndex字段來提高精度。實際上，如果沒有給出紋理映射或給出無效的紋理映射，則係統將使用默認的常規映射。</p>
+<p>“ pen.wbt”示例環境（位於Webots的“ projects / samples / devices / worlds”目錄中）提供了與配備筆的機器人一起使用的帶紋理的地板的示例。</p>
+<p><strong>注意</strong>：<a href="https://cyberbotics.com/doc/reference/worldinfo">WorldInfo</a>節點的inkEvaporation字段控制墨水蒸發的速度（消失）。</p>
+<p><strong>注意</strong>：可以通過紅外距離傳感器看到用鋼筆繪製的圖形。因此，可以實現機器人實驗，其中機器人用筆在地板上畫線，第二機器人用第一機器人畫的線進行跟隨行為。</p>
+<p><em><strong>領域摘要</strong></em></p>
+<ul>
+<li>inkColor：定義筆墨水的顏色。可以使用此wb_pen_set_ink_color功能從pen API更改此字段。</li>
+<li>inkDensity：定義墨水顏色的密度。該值應在[0,1]範圍內。也可以使用wb_pen_set_ink_color函數從pen API更改此字段。</li>
+<li>leadSize：定義筆的“筆尖”的寬度。這允許機器人編寫更寬或更窄的軌道。</li>
+<li>maxDistance：定義<a href="https://cyberbotics.com/doc/reference/pen#pen">Pen</a>設備與可繪畫對象之間的最大距離，並允許模擬接觸式書寫行為。小於或等於0的值表示無限的繪畫範圍。</li>
+<li>write：此佈爾值字段允許機器人啟用或禁用用筆書寫。也可以使用wb_pen_write功能從pen API進行切換。</li>
+</ul>
+<p></p>
+<p><em><strong>筆功能</strong></em></p>
+<p><strong>wb_pen_write</strong></p>
+<p>CC ++蟒蛇爪哇的MATLABROS</p>
+<p><span><span><span>#</span><span><span><strong><span>include</span></strong></span></span></span><span><span> </span><span><span><span>&lt;webots/pen.h&gt;</span></span></span></span></span> <span><span><strong><span><span><span>void</span></span></span></strong></span></span><span><span> </span><strong><span><span><span>wb_pen_write</span></span></span></strong></span><span><span><span><span>(WbDeviceTag tag,<span> </span></span></span></span><span><span><span><strong><span><span>bool</span></span></strong></span></span></span><span><span><span><span> </span>write)</span></span></span></span>;</p>
+<p><em><strong>描述</strong></em></p>
+<p><em>啟用或禁用筆書寫</em></p>
+<p>該wb_pen_write功能允許用戶打開或關閉筆設備以禁用或啟用書寫。如果該write參數為<em>true</em>，則指定的tag設備將寫入；否則為0。如果write為<em>false</em>，則不會。</p>
+<p><strong>wb_pen_set_ink_color</strong></p>
+<p>CC ++蟒蛇爪哇的MATLABROS</p>
+<p><span><span><span>#</span><span><span><strong><span>include</span></strong></span></span></span><span><span> </span><span><span><span>&lt;webots/pen.h&gt;</span></span></span></span></span> <span><span><strong><span><span><span>void</span></span></span></strong></span></span><span><span> </span><strong><span><span><span>wb_pen_set_ink_color</span></span></span></strong></span><span><span><span><span>(WbDeviceTag tag,<span> </span></span></span></span><span><span><span><strong><span><span>int</span></span></strong></span></span></span><span><span><span><span> </span>color,<span> </span></span></span></span><span><span><span><strong><span><span>double</span></span></strong></span></span></span><span><span><span><span> </span>density)</span></span></span></span>;</p>
+<p><em><strong>描述</strong></em></p>
+<p><em>改變筆墨水的顏色</em></p>
+<p>該wb_pen_set_ink_color功能更改指定tag設備的當前墨水顏色。的color是32位整數值，其限定在為0xRRGGBB十六進制格式（即油墨的新的顏色，0x000000處為黑色，0xFF0000為紅色，0x00FF00為綠色，0x0000FF是藍色的，0xFFA500是橙色，0x808080是灰色0XFFFFFF是白色的，等等。）。該density參數定義墨水密度，0表示透明墨水，1表示完全不透明的墨水。</p>
+<p><em><strong>例</strong></em></p>
+<p>wb_pen_set_ink_color(pen,<span>0xF01010</span>,<span>0.9</span>);</p>
+<p>上面的陳述會將指示筆的墨水顏色更改為某种红色。</p>
+<p><strong>注意</strong> [MATLAB]：在wb_pen_set_ink_color函數的MATLAB版本中，color參數必須是包含三個RGB分量的向量[RED GREEN BLUE]。每個組件的值必須在0.0到1.0之間。例如，矢量[1 0 1]代表洋紅色。</p><br />感測器 << <a href='感測器.html'>Previous</a> </div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        
